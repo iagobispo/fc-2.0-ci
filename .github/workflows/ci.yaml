@@ -1,5 +1,8 @@
 name: ci-golang-workflow
-on: [push]
+on:
+  pill_request:
+    brasnch:
+      - develop
 jobs:
   ckeck-application:
     runs-on: ubuntu-latest
