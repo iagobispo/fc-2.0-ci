@@ -1,6 +1,6 @@
 name: ci-golang-workflow
 on:
-  pill_request:
+  pull_request:
     brasnch:
       - develop
 jobs:
